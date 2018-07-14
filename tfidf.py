@@ -113,7 +113,7 @@ def main():
     topK = tf_idf.get_topK_idf(1000, True)
     #保存bag of word
     tf_idf.set_bag_of_word(set(topK.keys()))
-    #得到文章第1篇跟11的向量
+    #得到文章第1篇跟第11篇的向量
     vec1 = tf_idf.get_text_vector(0)
     vec2 = tf_idf.get_text_vector(10)
     #計算文件與文件的cosine similarity
