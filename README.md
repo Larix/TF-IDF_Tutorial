@@ -1,6 +1,6 @@
-# TF-IDF(Term Frequency - Inverse Document Frequency)
+# TF-IDF(Term Frequency - Inverse Document Frequency)
 Calculate cosine-similarity between documents using TF-IDF
-此專案以新聞資料進行tf-idf結合cosine similarity實作
+此專案以Python3進行開發，以新聞資料進行tf-idf結合cosine similarity實作的範例
 ### TF-IDF Introduction:
 ```
 TF-IDF是一種統計方法，用以評估一字詞對於一個檔案集或一個語料庫中的其中一份檔案的重要程度。
